@@ -8,11 +8,11 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
+          /*src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          alt=""*/
         />
 
-         <div className="home__row">
+        <div className="home__row">
           <Product
             id="12321341"
             title="Super Mario 3D World + Bowser's Fury - Nintendo Switch"
@@ -34,6 +34,13 @@ function Home() {
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg"
           />
+          <Product
+            id="90829342"
+            title="Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)"
+            price={299.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg"
+          />
         </div>
 
         <div className="home__row">
@@ -46,10 +53,17 @@ function Home() {
           />
           <Product
             id="23444430"
-            title="Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys, Adjustable Stand, for Windows 10 and macOS 10.13 or Late (10GAA9901)"
+            title="Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys."
             price={147.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_SL1500_.jpg"
+          />
+          <Product
+            id="12321341"
+            title="Super Mario 3D World + Bowser's Fury - Nintendo Switch"
+            price={59.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/81TK5d%2BI%2ByL._SL1500_.jpg"
           />
           <Product
             id="3254354345"
@@ -81,6 +95,13 @@ function Home() {
             price={299.98}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg"
+          />
+          <Product
+            id="12321341"
+            title="Super Mario 3D World + Bowser's Fury - Nintendo Switch"
+            price={59.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/81TK5d%2BI%2ByL._SL1500_.jpg"
           />
         </div>
       </div>
