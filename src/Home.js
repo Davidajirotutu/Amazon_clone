@@ -12,37 +12,44 @@ function Home() {
           alt=""
         />
 
-        <div className="home__row">
+         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="Super Mario 3D World + Bowser's Fury - Nintendo Switch"
+            price={59.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/81TK5d%2BI%2ByL._SL1500_.jpg"
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Bravely Default II - Nintendo Switch"
+            price={59.90}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/719Sgv7q6kL._SL1215_.jpg"
+          />
+           <Product
+            id="49538094"
+            title="Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 64 GB"
+            price={299.90}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            id="4938850"
+            title="Just Dance 2021 - Nintendo Switch Standard Edition"
+            price={29.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/81JMb%2BkSAAL._SL1500_.jpg"
           />
           <Product
-            id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            id="23444430"
+            title="Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys, Adjustable Stand, for Windows 10 and macOS 10.13 or Late (10GAA9901)"
+            price={147.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_SL1500_.jpg"
           />
           <Product
             id="3254354345"
@@ -56,10 +63,24 @@ function Home() {
         <div className="home__row">
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            title="Persona 5 Strikers - PlayStation 4"
+            price={59.98}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/81aEa8zePHL._SL1500_.jpg"
+          />
+          <Product
+            id="49538094"
+            title="Bravely Default II - Nintendo Switch"
+            price={59.90}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/719Sgv7q6kL._SL1215_.jpg"
+          />
+          <Product
+            id="90829342"
+            title="Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)"
+            price={299.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg"
           />
         </div>
       </div>
@@ -68,3 +89,4 @@ function Home() {
 }
 
 export default Home;
+
